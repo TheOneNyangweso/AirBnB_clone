@@ -128,3 +128,9 @@ table {
   border-spacing: 0;
 }
 /* END RESET */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

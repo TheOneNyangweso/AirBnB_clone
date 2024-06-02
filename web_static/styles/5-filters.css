@@ -1,0 +1,54 @@
+/*
+ * === Filter Section ===
+ */
+
+/* Search bar */
+.filters {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.locations,
+.amenities {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  padding-left: 50px;
+}
+
+.locations {
+  border-right: 1px solid #ddd;
+}
+
+.locations h3,
+.amenities h3 {
+  font-weight: 600;
+}
+
+.locations h4,
+.amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Search button */
+button {
+  float: right;
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #fff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  margin: 11px 30px;
+  border-radius: 4px;
+}
+
+.filters button:hover {
+  opacity: 90%;
+}

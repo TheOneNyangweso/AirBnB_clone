@@ -1,0 +1,102 @@
+/*
+ * === Filter Section ===
+ */
+
+/* Search bar */
+.filters {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: block;
+}
+
+.locations,
+.amenities {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 25%;
+  padding-left: 50px;
+}
+
+.locations {
+  border-right: 1px solid #ddd;
+}
+
+.locations h3,
+.amenities h3 {
+  font-weight: 600;
+}
+
+.locations h4,
+.amenities h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* Search button */
+button {
+  float: right;
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #fff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  margin: 11px 30px;
+  border-radius: 4px;
+}
+
+.filters button:hover {
+  opacity: 90%;
+}
+
+/* Contextual Dropdown */
+.popover {
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  list-style: none;
+  padding: 10px;
+  display: none;
+  z-index: 10;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block; /* Show dropdown on hover */
+}
+
+.popover li {
+  margin: 0 15px;
+}
+
+.popover li h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.filters:before,
+.filters:after {
+  content: "";
+  display: table;
+}
+
+.filters:after {
+  clear: both;
+}
+
+.filters {
+  clear: both;
+}

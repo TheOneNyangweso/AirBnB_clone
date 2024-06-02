@@ -1,0 +1,32 @@
+/*
+ * === Filter Section ===
+ */
+
+/* filter bar */
+.filters {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  /* display: flex;
+  /* justify-content: flex-end; Aligns items to the end horizontally */
+  /* align-items: center; Center verticaly */
+}
+
+/* Search button */
+button {
+  float: right;
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #fff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  margin: 11px 30px;
+  border-radius: 4px;
+}
+
+.filters button:hover {
+  opacity: 90%;
+}
