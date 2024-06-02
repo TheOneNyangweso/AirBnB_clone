@@ -1,5 +1,5 @@
 # AirBnB_clone
-AirBnB clone using HTML, CSS, JS &amp; Python
+AirBnB clone using HTML, CSS, JS &amp; Python \
 After 4 months, there will be a complete web application composed by:
 
 - A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)
