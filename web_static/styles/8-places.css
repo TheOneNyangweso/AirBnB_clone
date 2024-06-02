@@ -36,15 +36,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 60px;
-  min-height: 60px;
-  font-size: 30px;
+  min-width: 60px; /* Minimum width */
+  height: 60px; /* Fixed height */
+  font-size: 30px; /* Adjust font size as needed */
   color: #ff5a5f;
   border: 4px solid #ff5a5f;
   border-radius: 50%;
   position: absolute;
-  right: 10px; /* Position it 20px from the right edge of the article */
-  top: 10px; /* Position it 20px from the top edge of the article */
+  right: 20px; /* Position it 10px from the right edge of the article */
+  top: 20px; /* Position it 10px from the top edge of the article */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow: hidden; /* Ensure text does not overflow */
+  text-align: center; /* Center text horizontally */
+  line-height: 1.2; /* Adjust line-height for vertical alignment */
 }
 
 .max_guest {
@@ -64,6 +68,7 @@
   height: 80px;
   justify-content: space-around;
   margin-top: 40px;
+  padding-bottom: 15px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   text-align: center;
