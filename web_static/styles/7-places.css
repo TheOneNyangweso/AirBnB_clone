@@ -2,6 +2,12 @@
  * === PLace Section ===
  */
 
+.places {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
 .places article {
   display: inline-block;
   width: 390px;
@@ -12,13 +18,12 @@
 }
 
 .places h1 {
-  text-align: left;
-  font-weight: bold;
+  display: inline-block;
   font-size: 30px;
   font-weight: 800;
   padding-top: 30px;
+  width: 100%;
 }
-
 .places article h2 {
   font-weight: bold;
   text-align: center;

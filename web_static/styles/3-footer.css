@@ -13,5 +13,5 @@ footer {
   display: flex;
   bottom: 0;
   justify-content: center;
-  position: absolute;
+  position: relative;
 }
